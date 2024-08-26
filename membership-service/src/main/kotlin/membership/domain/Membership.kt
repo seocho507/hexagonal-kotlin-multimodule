@@ -26,9 +26,9 @@ data class Membership(
     }
 
     @JvmInline
-    value class MembershipId(val value: String) {
+    value class MembershipId(val value: Long) {
         init {
-            require(value.isNotBlank()) { "MembershipId cannot be blank" }
+            require(value >= 0) { "MembershipId cannot be blank" }
         }
     }
 
