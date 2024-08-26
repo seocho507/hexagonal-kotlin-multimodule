@@ -8,7 +8,7 @@ data class MembershipEntity(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "membership_id")
-    val membershipId: Long = 0,
+    val id: Long = 0,
 
     @Column(name = "name", nullable = false)
     val name: String,
