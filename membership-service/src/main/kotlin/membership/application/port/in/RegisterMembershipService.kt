@@ -1,6 +1,7 @@
 package membership.application.port.`in`
 
 import common.UseCase
+import membership.adapter.out.persistent.MembershipMapper
 import membership.application.port.out.RegisterMembershipPort
 import membership.domain.Membership
 
@@ -18,13 +19,7 @@ class RegisterMembershipService(
         )
 
         return RegisterMembershipResult(
-            membership = Membership.new(
-                membershipId = Membership.MembershipId(createdMembership.id),
-                membershipName = Membership.MembershipName(createdMembership.name),
-                membershipEmail = Membership.MembershipEmail(createdMembership.email),
-                membershipAddress = Membership.MembershipAddress(createdMembership.address),
-                membershipIsCorp = Membership.MembershipIsCorp(createdMembership.isCorp)
-            )
+            membership = MembershipMapper.toDomain(createdMembership)
         )
     }
 }
