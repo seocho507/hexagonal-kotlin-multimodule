@@ -1,6 +1,6 @@
 package membership.adapter.out.persistent
 
-import common.PersistentAdapter
+import annotations.PersistentAdapter
 import membership.application.port.out.RegisterMembershipPort
 import membership.domain.Membership
 

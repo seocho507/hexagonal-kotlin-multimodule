@@ -1,4 +1,4 @@
-package common
+package annotations
 
 import org.springframework.stereotype.Component
 

@@ -1,6 +1,6 @@
 package membership.adapter.`in`.web.api
 
-import common.WebAdapter
+import annotations.WebAdapter
 import membership.adapter.`in`.web.request.RegisterMembershipRequest
 import membership.adapter.`in`.web.response.RegisterMembershipResponse
 import membership.application.port.`in`.RegisterMembershipCommand

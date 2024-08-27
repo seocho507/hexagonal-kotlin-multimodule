@@ -1,12 +1,12 @@
-package common
+package membership.adapter.`in`.web.api.advice
 
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.ExceptionHandler
 import org.springframework.web.bind.annotation.RestControllerAdvice
 
-@RestControllerAdvice
-class ExceptionHandler {
+@RestControllerAdvice(basePackages = ["membership.adapter.`in`.web.api"])
+class MembershipExceptionHandler {
 
     @ExceptionHandler(
         value = [

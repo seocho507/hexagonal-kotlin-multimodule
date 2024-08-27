@@ -1,6 +1,6 @@
 package membership.application.port.`in`
 
-import common.UseCase
+import annotations.UseCase
 import membership.adapter.out.persistent.MembershipMapper
 import membership.application.port.out.RegisterMembershipPort
 import membership.domain.Membership

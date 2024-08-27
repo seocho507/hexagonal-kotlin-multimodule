@@ -3,3 +3,4 @@ plugins {
 }
 rootProject.name = "hexagonal-kotlin-multimodule"
 include("membership-service")
+include("common")

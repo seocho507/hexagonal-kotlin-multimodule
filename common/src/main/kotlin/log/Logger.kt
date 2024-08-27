@@ -1,6 +1,7 @@
-package common
+package log
 
 import io.github.oshai.kotlinlogging.KotlinLogging
+import util.objectMapper
 
 object Logger {
     private val logger = KotlinLogging.logger {}

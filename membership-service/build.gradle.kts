@@ -20,6 +20,8 @@ repositories {
 }
 
 dependencies {
+    implementation(project(":common"))
+
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
 
