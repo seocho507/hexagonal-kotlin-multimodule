@@ -1,4 +1,4 @@
-package waitroom
+package waitingroom
 
 
 import org.springframework.boot.autoconfigure.SpringBootApplication

@@ -1,4 +1,4 @@
-package waitroom.application.service;
+package waitingroom.application.service;
 
 import annotations.UseCase;
 

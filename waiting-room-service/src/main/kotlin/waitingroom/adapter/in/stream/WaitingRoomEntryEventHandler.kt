@@ -1,4 +1,4 @@
-package waitroom.waitroom.adapter.`in`.stream
+package waitingroom.waitroom.adapter.`in`.stream
 
 import annotations.StreamAdapter
 

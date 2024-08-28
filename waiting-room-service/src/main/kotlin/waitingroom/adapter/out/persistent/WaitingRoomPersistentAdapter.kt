@@ -1,4 +1,4 @@
-package waitroom.waitroom.adapter.out.persistent
+package waitingroom.waitroom.adapter.out.persistent
 
 import annotations.PersistentAdapter
 
