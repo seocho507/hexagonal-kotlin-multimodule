@@ -13,6 +13,12 @@ repositories {
     mavenCentral()
 }
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
 dependencies {
     implementation(project(":common"))
 
@@ -25,8 +31,8 @@ dependencies {
 
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-data-r2dbc")
+    implementation("io.r2dbc:r2dbc-h2")
 
-    runtimeOnly("com.h2database:h2")
     runtimeOnly("org.postgresql:postgresql")
     implementation ("org.springframework.boot:spring-boot-starter-data-redis-reactive")
 

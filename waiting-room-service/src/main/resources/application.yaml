@@ -1,0 +1,19 @@
+spring:
+  r2dbc:
+    url: r2dbc:h2:mem:///testdb
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  sql:
+    init:
+      platform: h2
+      mode: never
+
+logging:
+  level:
+    io.r2dbc.h2: DEBUG
