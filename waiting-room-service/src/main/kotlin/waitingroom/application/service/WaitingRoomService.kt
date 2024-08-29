@@ -1,8 +1,7 @@
-package waitingroom.application.service;
+package waitingroom.waitingroom.application.service
 
-import annotations.UseCase;
+import annotations.UseCase
 
 @UseCase
-public class WaitingRoomService {
-
+class WaitingRoomService {
 }
