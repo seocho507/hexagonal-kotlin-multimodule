@@ -1,7 +1,10 @@
-package membership.application.port.`in`
+package membership.application.service
 
 import annotations.UseCase
 import membership.adapter.out.persistent.MembershipMapper
+import membership.application.port.`in`.RegisterMembershipCommand
+import membership.application.port.`in`.RegisterMembershipResult
+import membership.application.port.`in`.RegisterMembershipUseCase
 import membership.application.port.out.RegisterMembershipPort
 import membership.domain.Membership
 

@@ -1,6 +1,6 @@
 package membership.domain
 
-data class Membership(
+data class Membership private constructor(
     val membershipId: MembershipId,
     val name: MembershipName,
     val email: MembershipEmail,
